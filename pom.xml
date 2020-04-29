@@ -11,7 +11,7 @@
         <relativePath />
     </parent>
   
-     <dependencies>
+ <dependencies>
 	 <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -30,19 +30,18 @@
 	<dependency>
 	  <groupId>org.junit.jupiter</groupId>
 	  <artifactId>junit-jupiter-api</artifactId>
-	  <version>5.3.2</version>
 	  <scope>test</scope>
 	</dependency>
 	<dependency>
 	  <groupId>org.junit.jupiter</groupId>
 	  <artifactId>junit-jupiter-engine</artifactId>
-	  <version>5.3.2</version>
 	  <scope>test</scope>
 	</dependency>
       </dependencies>
 
 	<properties>
 	    <maven.compiler.source>1.8</maven.compiler.source>
+	    <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
 	</properties>
    
 </project>
