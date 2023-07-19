@@ -5,11 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Addition {
-	@GetMapping("/addition")
-	public int add(int a, int b)
-	{
-		return a+b;
-	}
 	@GetMapping("/substract")
 	public int substract(int a, int b)
 	{
